@@ -1,0 +1,29 @@
+[
+  {
+    "id": "editable",
+    "value": "[role=main]"
+  },
+  {
+    "id": "sortable",
+    "value": ".rp-sort"
+  },
+  {
+    "id": "blocks",
+    "value": ".rp-block"
+  },
+  {
+    "id": "grid",
+    "value": [
+      {
+        "name": "Simple Block",
+        "desc": "Single column layout, vertically centered if parent supports this",
+        "html": "<div class='vc-content'><h1>Random Blurb</h1><p>Follow up text</p></div>"
+      },
+      {
+        "name": "2 Columns",
+        "desc": "Double column layout, vertically centered if parent supports this",
+        "html": "<div class=\"vc-content\"><h1>This is a TWO column layout</h1><div class=\"col-container\"><div class=\"col\"><h3>First Column</h3><p>Content</p></div><div class=\"col-vr\"><div class=\"vr\"></div></div><div class=\"col\"><h3>Second Column</h3><p>Content</p></div></div></div>"
+      }
+    ]
+  }
+]
